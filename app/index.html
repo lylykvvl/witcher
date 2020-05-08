@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lending Page Test</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="panel">
+        <div class="hero"><img src="images/witcher-3.png" alt=""></div>
+        <div class="main-content">
+            <header class="heading">
+                300% 
+                <small>Welcome bonus</small>
+            </header>
+            <form class="code">
+                <input type="text" class="code-text" value="Witcher">
+                <button class="btn" data-clipboard-text="WITCHER">copy code</button>
+            </form>
+            <a href="#" class="play-link">Play now</a>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="images/logo.png" class="footer-logo" alt="">
+        <p class="footer-text"><sup>*</sup>Terms and Conditions Apply</p>
+    </div>
+</div>
+<script src="script/clipboard.min.js"></script>
+<script>new ClipboardJS('.btn');
+</script>
+</body>
+</html>
